@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8">
+        <title>CPS</title>
+        <link href="cps.css" rel="stylesheet">
+        
+        
+</head>
+
+<body>
+    <div class="body">
+        <p class="title">Click per Second Calculator</p>
+        <div class="container">
+            
+            <p class="explication">Click faster than you can in the box</p>
+            <p class="timer" id="timer"></p>
+            <div id="clickbox" onclick="count()" class="clickbox"></div>
+            <p id="result" class="result"></p>
+            <p class="cps" id="cps"></p>
+            <button class="reset" id="reset">Reset</button>
+        </div>
+    </div>
+
+    <script src="cps.js"></script>
+</body>
